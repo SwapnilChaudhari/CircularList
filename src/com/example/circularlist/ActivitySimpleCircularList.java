@@ -44,7 +44,7 @@ public class ActivitySimpleCircularList extends Activity
 	
 	private double centerY;
 	
-	private double deltThetaRadian=40*Math.PI/180;
+	private double deltThetaRadian=40*Math.PI/180; //distance between each item of circular list 
 	
 	private GestureDetector gestureDetector;
 	
