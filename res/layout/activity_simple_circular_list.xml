@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    
+    >
+
+    
+        <RelativeLayout
+            
+            android:id="@+id/llViewHolder"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" 
+            android:animateLayoutChanges="true"
+            >
+
+            <ImageView
+                android:id="@+id/tv1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="1"
+                android:src="@drawable/red_number_1"
+                android:gravity="center"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/tv2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="2"
+                android:src="@drawable/red_number_2"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/tv3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="3"
+                android:src="@drawable/red_number_3"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/tv4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="4"
+                android:src="@drawable/red_number_4"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/tv5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="5"
+                android:src="@drawable/red_number_5"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/tv6"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="6"
+                android:src="@drawable/red_number_6"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/tv7"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="7"
+                android:src="@drawable/red_number_7"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/tv8"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="8"
+                android:src="@drawable/red_number_8"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/tv9"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="9"
+                android:src="@drawable/red_number_9"
+                android:textSize="30sp" />
+        </RelativeLayout>
+    <!-- </ScrollView> -->
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginTop="10dp">
+    <Button 
+        android:id="@+id/btnTranslate"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="Enable Translation"
+        android:textColor="#f0f0f0"
+        android:background="#0072ba"
+        android:padding="10dp"/>
+    
+    <Button 
+        android:layout_marginLeft="10dp"
+        android:id="@+id/btnRotate"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="Enable Rotation"
+        android:visibility="visible"
+        android:textColor="#f0f0f0"
+        android:background="#0072ba"
+         android:padding="10dp"/>
+</LinearLayout>
+</RelativeLayout>
