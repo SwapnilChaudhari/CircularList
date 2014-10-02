@@ -64,7 +64,7 @@ public class ActivitySimpleCircularList extends Activity
 	
 	private static int radCircle;
 	
-	private static final int MIN_PUSH_DISTANCE = 120;
+	private static final int MIN_PUSH_DISTANCE = 20; //Min distance forced to rotate by force
 	
 	private static final int MIN_VELOCITY_TO_ROTATE = 1000;
 	
