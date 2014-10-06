@@ -4,7 +4,7 @@ CircularList
 Android CircularList
 
 Features :
-- rotatation of whole circle by just putting or dragging a  anywhere on screeen
+- rotatation of whole circle by just putting or dragging a fingure anywhere on screeen (expect on child item)
 - rotate child item on touch
 - automating rolling motion of circle when user suddenly flings ( force and release fingure from screeen) it.
 
